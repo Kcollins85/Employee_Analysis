@@ -136,14 +136,14 @@ WHERE "first_name" = 'Hercules'
 AND "last_name" LIKE 'B%';
 
 -- List each employee in the Sales department, including their employee number, last name, and first name
-SELECT "Departments".dept_no, "Departments".dept_name, "Employees".emp_no, "Employees".last_name, "Employees".first_name
+SELECT "Departments".dept_name, "Employees".emp_no, "Employees".last_name, "Employees".first_name
 FROM "Employees"
 INNER JOIN "Department_Employees" ON ("Employees".emp_no = "Department_Employees".emp_no)
 INNER JOIN "Departments" ON ("Department_Employees".dept_no = "Departments".dept_no)
 WHERE "dept_name" = 'Sales';
 
 -- List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
-SELECT "Departments".dept_no, "Departments".dept_name, "Employees".emp_no, "Employees".last_name, "Employees".first_name
+SELECT "Departments".dept_name, "Employees".emp_no, "Employees".last_name, "Employees".first_name
 FROM "Employees"
 INNER JOIN "Department_Employees" ON ("Employees".emp_no = "Department_Employees".emp_no)
 INNER JOIN "Departments" ON ("Department_Employees".dept_no = "Departments".dept_no)
