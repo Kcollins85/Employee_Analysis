@@ -1,7 +1,5 @@
 # Employee Analysis
 
-Background
-
 Do a research project about people employed by a company during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files.
 
 Using CSV files, showcase data modelling, engineering, and analysis, respectively.
