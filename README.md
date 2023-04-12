@@ -1,10 +1,15 @@
-# SQL-Challenge
+# Employee Analysis
 
 Background
-It’s been two weeks since you were hired as a new data engineer at Pewlett Hackard (a fictional company). Your first major task is to do a research project about people whom the company employed during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files.
 
-For this project, you’ll design the tables to hold the data from the CSV files, import the CSV files into a SQL database, and then answer questions about the data. That is, you’ll perform data modelling, data engineering, and data analysis, respectively.
+Do a research project about people employed by a company during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files.
 
+Using CSV files, showcase data modelling, engineering, and analysis, respectively.
+
+# Tasks to peform using PGAdmin & POstgresSQL:
+
+- Design the tables to hold the data from a companies CSV files
+- Import the CSV files into a SQL database, and then answer questions below about the data.
 
 # Data Analysis
 
